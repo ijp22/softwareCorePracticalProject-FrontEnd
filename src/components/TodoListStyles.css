@@ -1,0 +1,17 @@
+#createIcon {
+  transition: all 0.5s ease-in-out;
+}
+
+#createIcon:hover {
+  color: green;
+  transform: scale(1.2);
+}
+
+#deleteIcon {
+  transition: all 0.5s ease-in-out;
+}
+
+#deleteIcon:hover {
+  color: red;
+  transform: scale(1.2);
+}

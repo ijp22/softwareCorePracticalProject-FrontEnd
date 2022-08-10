@@ -1,9 +1,13 @@
-import ButtonAppBar from './components/Appbar';
+import Heading from './components/Heading';
+import Todo from './components/Todo';
+import TodoList from './components/TodoList';
 
 function App() {
   return (
     <div>
-      <ButtonAppBar />
+      <Heading />
+      <Todo />
+      <TodoList />
     </div>
   );
 }

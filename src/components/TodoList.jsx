@@ -14,10 +14,12 @@ import './TodoListStyles.css';
 export default function TodoList() {
   const [todoList, setTodoList] = useState([]);
 
+  // Using Axios
   const handleClick = (id) => {
     axios.delete(`http://localhost:8080/api/v1/todos/${id}`);
   };
 
+  // Using Fetch
   useEffect(() => {
     fetch('http://localhost:8080/api/v1/todos')
       .then((res) => res.json())

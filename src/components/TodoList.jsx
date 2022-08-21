@@ -20,6 +20,8 @@ export default function TodoList() {
   };
 
   // Using Fetch
+  
+  //should of use async await in here.
   useEffect(() => {
     fetch('http://localhost:8080/api/v1/todos')
       .then((res) => res.json())
